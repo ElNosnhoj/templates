@@ -26,6 +26,7 @@ import '@ionic/react/css/display.css'
 // import '@ionic/react/css/palettes/dark.system.css'
 
 // custom components
+import { Nas } from 'pages/nas/Nas'
 
 // custom css
 
@@ -33,7 +34,7 @@ setupIonicReact()
 const App = () => {
     return (
         <IonApp>
-            Hello World!
+            <Nas/>
         </IonApp>
     )
 }
