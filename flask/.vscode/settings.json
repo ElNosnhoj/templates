@@ -1,0 +1,23 @@
+{
+    "code-runner.executorMap": {
+        "python":"$Env:PYTHONPATH='C:/Users/johnson.le/Desktop/stuff/repos/noslib/python;C:/Users/johnson.le/Desktop/stuff/repos/template-projs/flask';python -u $fullFileName"
+    },
+    "code-runner.customCommand": "echo nah",
+    "python.analysis.enablePytestSupport": false,
+    "python.analysis.include": [
+        "C:/Users/johnson.le/Desktop/stuff/repos/noslib/python",
+        "C:/Users/johnson.le/Desktop/stuff/repos/template-projs/flask"
+    ],
+    "python.analysis.extraPaths": [
+        "C:/Users/johnson.le/Desktop/stuff/repos/noslib/python",
+        "C:/Users/johnson.le/Desktop/stuff/repos/template-projs/flask"
+    ],
+    "files.exclude": {
+        "**/tempCodeRunnerFile*": false,
+        "**/__pycache__": false,
+        "**/*.pyc": false,
+        "**/bu*": false
+    },
+    "explorerExclude.backup": {},
+    "explorerExclude.showPicker": false,
+}
