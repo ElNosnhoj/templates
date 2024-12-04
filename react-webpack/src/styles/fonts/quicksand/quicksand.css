@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Quicksand';
+    font-weight: 300;
+    font-style: normal;
+    src: url('./quicksand-300.ttf')
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./quicksand-400.ttf')
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-style: normal;
+    src: url('./quicksand-500.ttf')
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-style: normal;
+    src: url('./quicksand-600.ttf')
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./quicksand-700.ttf')
+}

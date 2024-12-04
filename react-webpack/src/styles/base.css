@@ -1,0 +1,43 @@
+@import url(fonts/font.css);
+:root {
+    /* font-size: calc(10px + 0.7vw + 0.7vh + 0.1vmin); */
+    font-size: calc(8px + 0.4vw + 0.4vh + 0.1vmin);
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Nunito';
+
+    @media (max-width: 480px){
+        font-size: calc(0px + 1vw + 1vh + 0.1vmin);
+    }
+}
+*,
+*::before,
+*::after {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box !important;
+    position: relative;
+    gap: 0;
+
+    word-break: keep-all;
+    font-size: 1em;
+    letter-spacing: 0.02em;
+    font-family: inherit;
+}
+svg {
+    display: block;
+    width: 1em;
+    height: 1em;
+}
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
