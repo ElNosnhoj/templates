@@ -2,7 +2,10 @@
 set PYTHONPATH=%USERPROFILE%\Desktop\stuff\repos\noslib\python;%~dp0
 
 set host=0.0.0.0
-set port=42000
+set port=42001
+
+set cert=C:/Users/johnson.le/.cert/cert.pem
+set key=C:/Users/johnson.le/.cert/key.pem
 
 set "option=%1"
 goto %option%
@@ -15,8 +18,8 @@ goto %option%
     goto end
 
 :python
-    echo Running python --host %host% --port %port%
-    python app.py
+    echo Running python
+    python app.py --host %host% --port %port% --cert-file %cert% --key-file %key%
     goto end
 
 :node
@@ -25,7 +28,6 @@ goto %option%
     goto end
 
 :end
-
 
 
 
