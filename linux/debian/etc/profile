@@ -81,7 +81,9 @@ sources(){
     esac
 }
 
-
+napti(){
+    sudo apt-get install "$@" -y
+}
 
 #==============================================================
 # alias and other variables
