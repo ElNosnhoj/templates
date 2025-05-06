@@ -81,6 +81,23 @@ sources(){
     esac
 }
 
+screen_stuff(){
+    screen_name="$1"
+    cmd="$2"
+    screen -S "$screen_name" -dm
+    screen -S "$screen_name" -X stuff 'exec bash ^M'
+    screen -S "$screen_name" -X stuff '. /home/nosnhoj/.bashrc ^M'
+    screen -S "$screen_name" -X stuff "$cmd"'^M'
+}
+
+screen_script(){
+    screen_name="$1"
+    location="$2"
+    cmd_temp="$3"
+    cmd="cd $location && $cmd_temp"
+    screen_stuff "$screen_name" "$cmd"
+}
+
 napti(){
     sudo apt-get install "$@" -y
 }
