@@ -1,5 +1,24 @@
 {
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/src/index.css": true,
+        "**/src/main.tsx": true,
+        "**/src/vite-env.d.ts": true,
+        "**/.gitignore": true,
+        "**/index.html": true,
+        "**/package-lock.json": true,
+        "**/package.json": true,
+        "**/README.md": true,
+        "**/eslint.config.js": true,
+        "**/tsconfig.app.json": true,
+        "**/tsconfig.json": true,
+        "**/tsconfig.node.json": true,
+        "**/vite.config.ts": true,
+        "**/src/assets/fonts": true,
+    },
     "editor.tabSize": 4,
     "editor.detectIndentation": false,
     "editor.insertSpaces": true,
 }
+
+
