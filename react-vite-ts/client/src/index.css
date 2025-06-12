@@ -1,1 +1,57 @@
 @import url(assets/fonts/font.css);
+
+:root {
+    font-size: clamp(0.75rem, 1vw + 1rem, 1.5rem);
+
+    & {
+        --background: #f5f5f5; /* Lightest Grey */
+        --foreground: #333333; /* Dark Grey */
+
+        --radius: 0.3rem;
+        --border: #dcdcdc; /* Lighter Grey */
+
+        --primary: #8e8e8e; /* Grey */
+        --primary-foreground: #333333; /* Dark Grey */
+
+        --secondary: #bdbdbd; /* Medium Grey */
+        --secondary-foreground: #333333; /* Dark Grey */
+
+        --box-shadow: 0 0.2em 0.8em rgba(0, 0, 0, 0.1);
+    }
+
+
+    .dark {
+        --background: #121212; /* Very Dark Grey */
+        --foreground: #e0e0e0; /* Light Grey */
+
+        --radius: 0.3rem;
+        --border: #333333; /* Dark Grey Border */
+
+        --primary: #4a4a4a; /* Medium Dark Grey */
+        --primary-foreground: #ffffff; /* White */
+
+        --secondary: #757575; /* Lighter Dark Grey */
+        --secondary-foreground: #ffffff; /* White */
+        --box-shadow: 0 0.2em 0.8em rgba(0, 0, 0, 0.5);
+    }
+
+}
+
+*,
+*::before,
+*::after {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box !important;
+    gap: 0;
+
+    word-break: keep-all;
+    font-family: 'Nunito';
+
+    font-size: 1em;
+
+    list-style: none;
+    text-decoration: none;
+}
