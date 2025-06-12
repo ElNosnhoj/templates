@@ -1,0 +1,25 @@
+{
+    "files.exclude": {
+        "**/.vscode": false,
+        "**/node_modules": false,
+        "**/src/index.css": false,
+        "**/src/main.tsx": false,
+        "**/src/vite-env.d.ts": false,
+        "**/.gitignore": false,
+        "**/index.html": false,
+        "**/package-lock.json": false,
+        "**/package.json": false,
+        "**/README.md": false,
+        "**/eslint.config.js": false,
+        "**/tsconfig.app.json": false,
+        "**/tsconfig.json": false,
+        "**/tsconfig.node.json": false,
+        "**/vite.config.ts": false,
+        "**/src/assets/fonts": false,
+        "**/.next": false,
+        "**/sql": false
+    },
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+}
