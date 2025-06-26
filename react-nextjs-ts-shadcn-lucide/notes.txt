@@ -1,4 +1,4 @@
-npx create-next-app . --ts --eslint --tailwind --src-dir --app --import-alias "@/*"
+npx create-next-app . --ts --eslint --tailwind --src-dir --app --import-alias "@/*" --turbopack
 npx shadcn@latest init
 npm install lucide-react
 
