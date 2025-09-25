@@ -1,6 +1,7 @@
 {
     "files.exclude": {
         "**/.vscode": true,
+        ".devcontainer": true,
         "**/node_modules": true,
         "**/src/index.css": true,
         "**/src/main.tsx": true,
@@ -17,19 +18,13 @@
         "**/vite.config.ts": true,
         "**/src/assets/fonts": true,
         "**/.next": true,
-        ".env.local": true,
+        "**/sql": true,
+        "**ocker*": true,
         "components.json": true,
         "eslint.config.mjs": true,
-        "next-env.d.ts": true,
-        "next.config.ts": true,
-        "postcss.config.mjs": true,
-        "**/favicon.ico": true,
-        "public/": true,
-        "src/app/globals.css": true,
-        "src/app/layout.tsx": true,
-        "src/app/loading.tsx": true,
-        "src/app/page.tsx": true,
-        "src/types/": true
+        "**next*": true,
+        "postcss.config.mjs": true
+
     },
     "editor.tabSize": 4,
     "editor.detectIndentation": false,
