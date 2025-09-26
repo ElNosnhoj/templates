@@ -3,20 +3,20 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@import "./themes/default.css";
+@import "./themes/darkmatter.css";
+/* @import "./themes/default.css"; */
+
 
 @layer base {
     *,
     *::before,
     *::after {
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
+        @apply box-border border-border outline-ring/50 antialiased;
     }
 
-    html {
-        touch-action: pan-x pan-y;
-    }
-
-    body {
-        touch-action: pan-x pan-y;
+    html,body {
+        /* touch-action: pan-x pan-y; */
+        @apply touch-pan-x touch-pan-y;
     }
 }
